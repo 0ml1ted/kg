@@ -28,7 +28,7 @@ header ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    
+    align-items: center;
 }
 li{
     padding: 30px;
