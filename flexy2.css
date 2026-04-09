@@ -42,7 +42,7 @@ header h1{
     justify-content: end;
     flex-direction: column;
     min-height: 321px;
-    
+    text-align: center;
 }
 .daniarlox a{
     background-image: url(/TMPS000126.png);
@@ -52,6 +52,7 @@ header h1{
     color: white;
     text-decoration: none;
     padding: 10px;
+    
 }
 .blocks{
     max-width: 1170px;
@@ -404,4 +405,41 @@ position: absolute;
 top: 100px;
 left: 460px;
 
+}
+@media screen and (max-width: 1100px){
+    .womans{
+        flex-direction: column;
+        align-items: center;
+    }
+    .poncik::before{
+    display: none;
+    }
+
+}
+@media screen and (max-width: 770px){
+.textget p::after{
+    display: none;
+}
+.textget p::before{
+    display: none;
+}
+.text p::after{
+    display: none;
+}
+.text p::before{
+    display: none;
+}
+}
+@media screen and (max-width: 535px){
+    .inputs{
+        flex-direction: column;
+    }
+    .eban{
+        max-width: initial!important;
+    }
+}
+@media screen and (max-width: 475px){
+    header{
+        flex-direction: column;
+    }
 }
