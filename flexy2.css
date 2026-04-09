@@ -26,9 +26,9 @@ header ul{
     max-width: 340px;
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     list-style: none;
-
+    
 }
 li{
     padding: 30px;
@@ -45,7 +45,7 @@ header h1{
     text-align: center;
 }
 .daniarlox a{
-    background-image: url(/TMPS000126.png);
+    background-image: url(TMPS000126.png);
     max-width: 142px;
     width: 100%;
     min-height: 56px;
